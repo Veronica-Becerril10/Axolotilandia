@@ -1,0 +1,53 @@
+body{
+    background-color:#db94a2;
+    color:  rgb(8, 8, 8);
+    font-family:´Tajawal´,sans-serif;
+}
+
+.titulo{
+    color: #A53960;
+    text-align: center;
+    font-family: 'Moirai One',cursive;
+    font-size: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 250px;
+}
+
+.axoSleep{
+    width: 10%;
+    display: flex;
+    margin-left: 25%;
+    border-radius: 20px;
+    
+}
+
+p{
+    color: rgb(200, 16, 16);
+    text-align: justify;
+}
+
+a{
+    color: #A53960;
+    text-decoration: ;
+}
+li{
+   text-align: center;
+}
+
+h3{
+    text-decoration: line-through;
+    text-align: center;
+
+}
+/* selector {
+      propiedad : valor
+}
+*/
