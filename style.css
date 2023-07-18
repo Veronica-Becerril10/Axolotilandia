@@ -1,7 +1,16 @@
 body{
-    background-color:#db94a2;
+    background-color:#ebc1ca;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-mancha-acuarela-color-pastel_52683-12283.jpg);
+    background-size: 100% 100%;
     color:  rgb(8, 8, 8);
     font-family:´Tajawal´,sans-serif;
+    margin: 1cm 5cm;
+    border-color: aqua;
+    border-style: outset;
+    border-width: 100%;
+    border-left: 50%;
+    padding: 0 50px 25px;
 }
 
 .titulo{
@@ -18,15 +27,17 @@ body{
 }
 
 img{
-    width: 250px;
+    width: 300px;
+    margin-right: 50%;
+    display:block;
+    margin:auto;
 }
 
 .axoSleep{
-    width: 10%;
+    width: 20%;
     display: flex;
-    margin-left: 25%;
+    margin-left: 45%;
     border-radius: 20px;
-    
 }
 
 p{
@@ -36,8 +47,9 @@ p{
 
 a{
     color: #A53960;
-    text-decoration: ;
+    text-decoration: underline;
 }
+
 li{
    text-align: center;
 }
@@ -45,9 +57,93 @@ li{
 h3{
     text-decoration: line-through;
     text-align: center;
+}
 
+h2{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+
+label{
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
 }
 /* selector {
       propiedad : valor
 }
 */
+
+.quest{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: #aad87d;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #0000005d;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #f29dfa;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+button:active {
+    background-color: #7ed3d3;
+}
+
+button:focus {
+    outline: none;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.display {
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #a7caea;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+}
+
+#valor-actual {
+    font-size: em;
+}
+
+#valor-anterior {
+    font-size: 2em;
+}
+
+
